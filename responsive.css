@@ -1,0 +1,195 @@
+@media screen and (max-width: 576px) {
+    .container{
+        padding: 0px;
+    }
+    .navbar {
+        flex-direction: column;
+        
+        margin-left: -50px;  
+    }
+    .navbar ul {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .navbar ul li a{
+        margin-left: -100px;
+       
+    }
+    .banner-header{ 
+        font-weight: 500;
+        font-size: 45px;
+        padding: 20px 0;
+    }
+    .banner-description{
+        padding: 0px 20px 20px;
+    }
+    .banner-image img{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        padding: 30px;
+    }
+
+    /* -------------
+Features Section 
+----------------- */
+    .features {
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .feature-team {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        text-align: center;
+        display:flex ;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-team img {
+        width: 100%;
+    }
+
+    .feature-text {
+        width: 93%;
+    }
+
+    .feature-text h2 {
+        line-height: 26px;
+        padding-bottom: 5px;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .feature-text p {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .feature-text button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+    /* loving & enjoyable Features */
+
+    .enjoyment-feature {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .feature-list h2 {
+        font-weight: 700;
+        font-size: 20px;
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .feature-list p {
+        width: 90%;
+        padding-bottom: 14px;
+        padding-top: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .feature-list {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .feature-details {
+        width: 80%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-top: 14px;
+        text-align: center;
+        margin: auto;
+        box-shadow: -3px -2px 5px -2px 1px #888888;
+    }
+
+
+    .feature-girl img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /* section of some facts  */
+
+    .achievement {
+        margin: 5px 0;
+    }
+
+    .achievement-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .facts-title {
+        width: 80%;
+    }
+
+    .facts-title h2 {
+        font-size: 25px;
+    }
+
+    .facts-title p {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    /* sponsors section  */
+
+
+    .sponsors_item {
+        flex-direction: column;
+    }
+
+    .sponsors {
+        padding-top: 15px;
+    }
+
+    .sponsors h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .sponsors p {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    .sponsors_item img {
+        
+        margin-bottom: 25px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer p {
+        padding: 0;
+        padding: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}

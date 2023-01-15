@@ -6,64 +6,291 @@
     font-family: 'Work Sans', sans-serif;
     text-align: center;
 }
- /* Header and Navbar */
 
-.header {
-    background: rgba(255, 144, 14, 0.1);
+/* Header and Navbar */
+
+.header{
+    background-color: bisque;
+}
+.container{
+    padding: 20px 200px;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    background-color: bisque;
 }
-.logo-title {
+.logo-text{
     font-size: 45px;
     font-weight: 700;
 }
 .navbar ul {
     display: flex;
     list-style: none;
-}
-.navbar ul li a{
-    padding-right: 50px;
-    color: #424242;
-    text-decoration: none;
-}
-
-/* Banner title and description  */
-.banner-text {
-    padding-left: 512px;
-    padding-right: 546px;
-    width: 100%;
-}
-
-.banner-title{
-    font-weight: 700;
-    font-size: 64px;
-    padding-top: 116px;
-    color: #131313;
     
 }
-
+.navbar ul li a{
+    text-decoration: none;
+    padding-right: 50px;
+    color: #424242;
+}
+/* Banner text , button and image */
+.banner-text{
+    text-align: center;
+    padding: 30px 490px;
+}
+.banner-header{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    padding-bottom: 30px;
+}
 .banner-description{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    padding-top: 30px;
     padding-bottom: 30px;
 }
-
-.primary-button{
+.banner-button{
     padding: 18px 24px;
     font-weight: 600;
     font-size: 20px;
-    border: none;
-    border-radius: 5px;
     background-color: #FF900E;
     color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.banner-photo {
+.banner-image{
     text-align: center;
-    padding: 30px 0;
+    padding: 10px 0 30px;
+}
+
+
+/* -------------
+Features Section 
+----------------- */
+
+.feature-team {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    text-align: left;
+    gap: 75px;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    text-align: left;
+
+}
+
+strong {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+span {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+
+/* Loving and enjoyable section  */
+
+.enjoyment-feature {
+    display: flex;
+}
+
+.feature-list {
+    width: 586px;
+}
+
+.feature-list h3 {
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    border-left: 4px solid #ff900e;
+    padding-left: 20px;
+}
+
+.feature-list p {
+    width: 524px;
+    color: #727272;
+    padding-bottom: 25px;
+    padding-top: 18px;
+    line-height: 24px;
+}
+
+.feature-details {
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 30px 0 0 30px;
+    box-shadow: 1px 1px 10px -2px #888888;
+}
+
+.feature-girl img {
+    width: 800px;
+    margin-left: 61px;
+}
+
+.secondary_button {
+    position: absolute;
+    bottom: -4%;
+    right: 41.8%;
+    padding: 40px 35px;
+    font-weight: 700;
+    font-size: 45px;
+    background-color: #ff900e;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    line-height: 27px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.secondary_button span {
+    font-size: 20px;
+}
+
+.secondary_button:hover {
+    background-color: transparent;
+    border: 1px solid #ff9d2c;
+    color: #727272;
+}
+
+.feature-container {
+    position: relative;
+}
+
+/* section of some facts  */
+
+.some-facts {
+    margin-top: 130px;
+
+}
+
+.facts_title {
+    width: 1245px;
+    margin: auto;
+}
+
+.facts_title h2 {
+    font-weight: 700;
+    text-align: left;
+    font-size: 45px;
+}
+
+.facts_title p {
+    margin-bottom: 100px;
+    margin-top: 24px;
+    text-align: left;
+    color: #727272;
+    width: 542px;
+}
+
+.achievement-box {
+    display: flex;
+    justify-content: center;
+}
+
+.achievement {
+    padding: 45px 35px;
+    border: 1px solid #ff900e;
+    text-align: center;
+    margin-left: 124px;
+    transition: 0.4s all ease-in-out;
+    border-radius: 5px;
+}
+
+.achievement:hover {
+    background-color: #ff900e;
+    color: #ffff;
+}
+
+.achievement img {
+    width: 45.22px;
+}
+
+.achievement h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.achievement p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* sponsors section  */
+
+
+.sponsors {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.sponsors h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.sponsors p {
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsors_item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Footer section  */
+
+footer {
+    text-align: center;
+    width: 1440px;
+    margin: auto;
+    border: 5px;
+}
+
+footer p {
+    padding: 40px 410px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #fff4e7;
+    border-radius: 5px;
+    color: #424242;
+    margin: 130px 0;
 }
